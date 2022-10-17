@@ -1,0 +1,381 @@
+
+#logo{
+    width:160px;
+    height: 140px; 
+    position: relative;
+    margin-right: 5px;
+    margin-left: -150px;
+    margin-top: -25px;
+}
+
+#Together{
+    width:320px;
+    height: 220px;
+    margin-left: 620px;
+    margin-top: -40px;
+}
+
+#top_headingS{
+    position: absolute;
+    transform: translate(290px,-10px);
+    font-size: 20px;
+}
+
+#top_headingT{
+    position: absolute;
+    transform: translate(180px,-10px);
+    font-size: 20px;
+}
+
+#top_headingE{
+    position: absolute;
+    transform: translate(250px,-4px);
+    font-size: 20px;
+}
+
+#top_heading2S{
+    position: absolute;
+    transform: translate(230px,6px);
+    font-size: 20px;
+}
+
+#top_heading2T{
+    position: absolute;
+    transform: translate(160px,5px);
+    font-size: 18px;
+}
+
+#top_heading2E{
+    position: absolute;
+    transform: translate(120px,8px);
+    font-size: 15px;
+    font-size: 20px;
+}
+
+#top{
+    margin-bottom: 5px;
+}
+
+#main_table{
+    margin-left: 20%;
+}
+
+#dme{
+    position: absolute;
+    transform: translate(800px,-45px);
+    width: 60px;
+    text-align: center;
+    border-style:double;
+    border-color: black;
+    font-weight:800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#txt_2{
+    width:755px;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    transform: translate(-120px,-25px);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-color: black;
+    font-size: 20px;
+    
+    
+}
+
+
+#txt_3{
+    font-size: 20px;
+    border-color: black;
+    position: absolute;
+    transform: translate(-325px,-25px);
+    padding-left: 11px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgba(43, 42, 42, 0.486);
+    width: 230px;
+}
+
+#name{
+    font-size: small;
+    position: absolute;
+    transform: translate(110px,0px);
+}
+
+li{
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 2px;
+    font-size: 20px;
+}
+
+#initial_name{
+    width:1005px;
+    margin-top: 5px;
+    border-color: black;
+    height: 30px;
+    
+}
+
+#address{
+    position: relative;
+    margin-top: 5px;
+}
+
+#address_box{
+    width: 1005px;
+    margin-top: -7px;
+    border-color: black;
+}
+
+.word{
+    font-size: 15px; 
+}
+
+#gender_div{
+    margin-top: 3px;
+}
+
+#radio_btn{
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+#nic{
+    position: absolute;
+    transform: translate(520px,-55px);
+}
+
+#nic_box{
+    width: 475px;
+    border-color: black;
+    position: absolute;
+    transform: translate(520px,-28px);
+    font-size: 20px;
+}
+
+#birth{
+    margin-top: 10px;
+    position: relative;
+    transform: translate(0px,0px);
+}
+
+#date{
+    margin-top:3px ;
+}
+
+#religion{
+    position: absolute;
+    transform: translate(520px,-45px);
+}
+
+#religion_box{
+    width: 475px;
+    border-color: black;
+    height: 20px;
+}
+
+#married{
+    margin-top:10px ;
+    font-size: 20px;
+}
+
+#nationality{
+    position: relative;
+    transform: translate(520px,-68px);
+}
+
+#nationality_box{
+    width: 475px;
+    height: 20px;
+    border-color: black;
+}
+
+#special_need{
+    margin-top: -35px;
+}
+
+pre{
+    margin-top: -50px;
+    margin-left: 175px;
+}
+
+#nine{
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+pre{
+   position: relative;
+   transform: translate(-30px,-15px);
+}
+
+#ten{
+    margin-top: -50px;
+}
+
+#district_box{
+    font-size: 20px;
+    width: 450px;
+    border-color: black;
+}
+
+#district_secret{
+    margin-left: 520px;
+    margin-top: -55px;
+}
+
+#district_secretBox{
+    position: relative;
+    transform: translateY(1px);
+    margin-left: 520px;
+    font-size: 20px;
+    width: 475px;
+    border-color: black;
+}
+
+#email_section{
+    margin-top: 10px;
+}
+
+#mobile_section{
+    margin-top: 10px;
+}
+
+#mobile_num{
+    margin-top: 5px;
+    border-color: black;
+    width: 450px;
+    font-size: 20px;
+}
+
+#telephone_section{
+    margin-top: 10px;
+    margin-left: 520px;
+    margin-top: -62px;
+}
+
+#telephone_num{
+    margin-top: 5px;
+    border-color: black;
+    width: 475px;
+    font-size: 20px;
+}
+
+#e_qulification{
+    margin-top: 10px;
+}
+
+#checkbox1{
+    margin-top: 10px;
+    width: 55px;
+    height: 70px;
+}
+
+#below_ol{
+    font-weight: bold;
+    position: absolute;
+    transform: translate(10px,10px);
+    font-size: 18px;
+}
+
+#checkbox2{
+    margin-left: 220px;
+    margin-top: 10px;
+    width: 55px;
+    height: 70px;
+}
+
+#ol{
+    font-weight: bold;
+    position: absolute;
+    transform: translate(10px,10px);
+    font-size: 18px;
+}
+
+#checkbox3{
+    margin-left: 150px;
+    margin-top: 10px;
+    width: 55px;
+    height: 70px;
+}
+
+#al{
+    font-weight: bold;
+    position: absolute;
+    transform: translate(10px,10px);
+    font-size: 18px;
+}
+
+#checkbox4{
+    margin-left: 140px;
+    margin-top: 10px;
+    width: 55px;
+    height: 70px;
+}
+
+#degree{
+    font-weight: bold;
+    position: absolute;
+    transform: translate(10px,10px);
+    font-size: 18px;
+}
+
+#checkbox5{
+    margin-left: 70px;
+    margin-top: 10px;
+    width: 55px;
+    height: 70px;
+}
+
+#post_graduate{
+    font-weight: bold;
+    position: absolute;
+    transform: translate(10px,10px);
+    font-size: 18px;
+}
+
+.year{
+    position: absolute;
+    margin-left: 67%;
+    margin-top: -40px;
+    padding-bottom: 15px;
+    border-color: #000;
+}
+
+.ol_table{
+    width: 84%;
+    border-color: #000;
+    border-spacing: 0;
+    padding-top: 10px;
+    border-style:none;
+    border-top-color: transparent;
+    border-left-color: #000;
+    border-bottom-color: #000;
+    border-right-color: #000;
+    border-top-style: none; 
+}
+
+th{
+    text-align: center;
+    padding: 10px 0 10px 0 ;
+    font-size: 18px;
+    border-top-color: #000;
+}
+
+#alPart{
+    margin-top: 10px;
+}
+#higherPart{
+    margin-top: 10px;
+}
+
+body{
+    padding-top: 80px;
+}
