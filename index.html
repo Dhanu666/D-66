@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Job Application Form</title>	
+
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	<table id="main_table" border="0">
+		<tr>
+			<td><img src="Government logo.png" alt="Government Logo" id="logo"></td>
+	
+			<td>
+			<div id="top">	
+				<span id="top_headingS">රැකියා ඉල්ලුම් පත්රය</span> <br> <span id="top_headingT"> தொழில்துறை விண்ணப்ப படிவம் </span><br> 
+				<span id="top_headingE">JOB APPLICATION FORM </span> <br>
+				<span id="top_heading2S">මිනිස් බල හා රැකියා දෙපාර්තමේන්තුව</span><br>
+				<span id="top_heading2T">மனிதவளம் மற்றும் வேலைவாய்ப்பு துறை</span><br>
+				<span id="top_heading2E">DEPARTMENT OF MANPOWER AND EMPLOYMENT</span>
+			</div>
+			</td>
+	
+			<td><img src="Together.png" alt="Together" id="Together"></td>
+		</tr>
+
+		<tr>
+			<td></td>
+			<td></td>
+			<td><input type="text" value="DME-01" id="dme" readonly></td>
+		</tr>
+
+		<tr>
+			<td colspan="3"><input type="text" value="කර්මාන්ත ස්ථානය / தொழில் நிலையம் / Job Centre" 
+				id="txt_2" readonly></td>
+			
+			<td><input type="text" value="Visit - www.dome.gov.lk" id="txt_3" readonly></td>
+		</tr>
+
+	</table>
+
+		<ol type="1" id="name">
+		
+			<li>නම මුලකුරු සමග / <span class="word">முதலெழுத்துக்களுடன் பெயர்</span> / Name With Initials:</li> <!--Name-->
+			<input type="text" id="initial_name">
+	
+			<li><p id="address"> ස්ථීර ලිපිනය / <span class="word">முகவரி</span> / Address :</p></li> <!--Address-->
+			<textarea name="address" id="address_box" cols="30" rows="2"></textarea>
+	
+		<div id="gender_div">
+			<li>ස්ත්රී පුරුෂ භාවය / <span class="word">பால்</span> / Gender :</li> <!--Gender-->
+		
+			<div id="radio_btn">
+				<input type="radio" name="gender">පුරැෂ / <span class="word">ஆண்</span> / Male &nbsp; &nbsp; &nbsp; &nbsp; <!--Male--> 
+				<input type="radio" name="gender">ස්තීු / <span class="word">பெண்</span> / Female <!--Female-->
+			</div>
+		</div>
+	
+			<div id="nic"><li>ඡා.හැ.අ / <span class="word">​தேசிய அடையாளஅட்டை இலக்கம்</span> / N.I.C.No :</li></div> <!--NIC-->
+			
+			<input type="text" id="nic_box" maxlength="12">
+		
+	
+			<div id="birth">
+				<li>උපන්දිනය / <span class="word"> பிறந்த திகதி </span>/ Date of Birth :</li><!--DOB-->
+				<div id="date"><input type="date" ></div>
+			</div>
+	
+			<div id="religion">
+				<li>ආගම / <span class="word">சமயம்</span> / Religion :</li><!--Religion-->
+				<input type="text" id="religion_box">
+			</div>
+	
+			<div id="married">
+				<li>විවාහක අවිවාහක බව / <span class="word">விவாக நிலை</span> / Marital Status :</li><!--Married / Unmarried-->
+	
+			&nbsp; &nbsp; &nbsp; <input type="checkbox" ><b> විවාහක / <span class="word">திருமணமானவர்</span> / Married </b> <br>
+			&nbsp; &nbsp; &nbsp; <input type="checkbox" ><b> අවිවාහක / <span class="word">திருமணமாகாதவர்</span> / Single </b> <br>
+			</div>	
+	
+			<div id="nationality">
+				<li>පුරවැසිහාවය / <span class="word">இனம்</span> / Nationality :</li><!--Nationality-->
+				<input type="text" id="nationality_box">
+			</div>
+	
+			<div id="special_need">
+				<li>ඔබ විශේෂ අවශ්‍යතා ඇති පුද්ගලයෙක්ද? / <span class="word">நீங்கள் சிறப்புத் தேவை உள்ள நபரா?</span> / Are You a Person With 
+					Special Need ?</li>
+			</div>
+	
+			<div id="nine">
+				&nbsp; &nbsp; &nbsp;<input type="checkbox">ඔව් / <span class="word">ஆம்</span> / Yes <br>
+				&nbsp; &nbsp; &nbsp;<input type="checkbox">නැත <span class="word">இல்லை</span> / No <br>
+	
+			<pre> <b>
+				ඔව් නම්, සඳහන් කරන්න / <span class="word">ஆம் எனில், குறிப்பிடவும்</span>
+				 / If Yes,Specify........................
+				 ........................................
+			</b></pre>
+			</div>
+	
+			<div id="ten">
+				<li>දිස්ත්‍රික්කය / <span class="word">மாவட்டம்</span> / District :</li>
+				
+			</div>
+			<input type="text" id="district_box">
+
+			<div id="district_secret">
+				<li>ප්‍රාදේශීය ලේකම්/ <span class="word">பிரதேச செயலகம்</span> /  Divisional Secretarial :</li>
+			</div>
+			<input type="text" id="district_secretBox">
+
+			<div id="email_section">
+				<li>වද්‍යුත් තැපැල් ලිපිනය / <span class="word">மின்னஞ்சல் முகவரி</span> / E-mail Address : <!--Email_Address-->
+				.............................................................................................</li>
+			</div>
+
+			<div id="mobile_section">
+				<li>දුරකථන අංකය : ජංගම / <span class="word">கைத்தொலைப்பேசி</span> / Mobile :</li><!--Mobile_Number-->
+				<input type="text" value="07" id="mobile_num" maxlength="10">
+			</div>
+
+
+			<div id="telephone_section">
+				<li>නිවස / <span class="word">தொலைபேசி</span> / Home :</li> <!--Home_Number-->
+				<input type="text" id="telephone_num">
+			</div>
+
+			<div id="e_qulification">
+				<li>ඉහළම අධ්‍යාපකන සුදුසුකම් / <span class="word">உமது உயர் கல்வித் தகைமை</span>  / 
+					Your Highest Education Qualification</li>
+
+				<input type="checkbox" id="checkbox1"><span id="below_ol">අ.පො.ස (සා.පෙළ) දක්වා <br> <span class="word">
+					சாதாரணதரத்திற்கு கீழ்</span> <br> Below O/L</span>
+
+				<input type="checkbox" id="checkbox2"><span id="ol">අ.පො.ස (සා.පෙළ)<br> <span class="word">
+					சாதாரணதரம்</span> <br> O/L</span>
+					
+				<input type="checkbox" id="checkbox3"><span id="al">අ.පො.ස (උ.පෙළ)<br> <span class="word">
+					உயர்தரம்</span> <br> A/L</span>
+
+				<input type="checkbox" id="checkbox4"><span id="degree">උපාධි<br> <span class="word">
+					பட்டம்</span> <br> Degree</span>
+
+				<input type="checkbox" id="checkbox5"><span id="post_graduate">පශ්චාත් උපාධි<br> <span class="word">
+					மதுமாணி</span> <br> Post Graduate</span>
+			</div>
+
+			<div>
+				<li>අ.පො.ස (සා.පෙ.ළ) සුදුසුකම් / <span class="word">க.பொ.த (சாதாரணதர) தகைமைகள்</span>
+					 වර්ෂය / ஆண்டு / <br> Year Qualification of G.C.E O/L </li>
+
+					 <input type="number" class="year">
+
+					 <table border="1" class="ol_table">
+						<tr>
+							<th colspan="2" class="left">
+								විෂයය / <span class="word">பாடம்</span> / Subject
+							</th>
+							
+							<th>
+								ශ්‍රේණිය / <span class="word">தரம்</span> / Grade
+							</th>
+
+							<th colspan="2">
+								විෂයය / <span class="word">பாடம்</span> / Subject
+							</th>
+
+							<th>
+								ශ්‍රේණිය /<span class="word">தரம்</span> / Grade
+							</th>
+						</tr>
+
+						<tr>
+							<td class="left">
+								<ol>
+									<li></li>
+								</ol>
+							</td>
+							<td width="250px"></td>
+
+							<td width="300px"></td>
+
+							<td>
+								<ol start="6">
+									<li></li>
+								</ol>
+							</td>
+
+							<td width="250px"></td>
+
+							<td width="300px"></td>
+						</tr>
+
+						<tr>
+							<td class="left">
+								<ol start="2">
+									<li></li>
+								</ol>
+							</td>
+							<td width="250px"></td>
+
+							<td width="300px"></td>
+
+							<td>
+								<ol start="7">
+									<li></li>
+								</ol>
+							</td>
+
+							<td width="250px"></td>
+
+							<td width="300px"></td>
+						</tr>
+
+						<tr>
+							<td class="left">
+								<ol start="3">
+									<li></li>
+								</ol>
+							</td>
+							<td width="250px"></td>
+
+							<td width="300px"></td>
+
+							<td>
+								<ol start="8">
+									<li></li>
+								</ol>
+							</td>
+
+							<td width="250px"></td>
+
+							<td width="300px"></td>
+						</tr>
+
+						<tr>
+							<td class="left">
+								<ol start="4">
+									<li></li>
+								</ol>
+							</td>
+							<td width="250px"></td>
+
+							<td width="300px"></td>
+
+							<td>
+								<ol start="9">
+									<li></li>
+								</ol>
+							</td>
+
+							<td width="250px"></td>
+
+							<td width="300px"></td>
+						</tr>
+
+						<tr>
+							<td class="left">
+								<ol start="5">
+									<li></li>
+								</ol>
+							</td>
+							<td width="250px"></td>
+
+							<td width="300px"></td>
+
+							<td>
+								<ol start="10">
+									<li></li>
+								</ol>
+							</td>
+
+							<td width="250px"></td>
+
+							<td width="300px"></td>
+						</tr>
+
+					 </table>
+			</div>
+
+			<div id="alPart">
+				<li>අ.පො.ස (උ.පෙළ) සුදුසුකම් / <span class="word">க.பொ.த (உயர்தர) தகைமைகள் </span>   වර්ෂය / ஆண்டு / <br>
+					 Year Qualification of G.C.E A/L</li>
+
+					 <input type="number" class="year">
+
+					<table  border="1" class="ol_table">
+						<tr>
+							<th colspan="2" class="left">
+								විෂයය / <span class="word">பாடம்</span> / Subject
+							</th>
+							
+							<th>
+								ශ්‍රේණිය / <span class="word">தரம்</span> / Grade
+							</th>
+
+							<th colspan="2">
+								විෂයය / <span class="word">பாடம்</span> / Subject
+							</th>
+
+							<th>
+								ශ්‍රේණිය / <span class="word">தரம்</span> / Grade
+							</th>
+						</tr>
+
+						<tr>
+							<td class="left">
+								<ol>
+									<li></li>
+								</ol>
+							</td>
+							<td width="250px"></td>
+
+							<td width="300px"></td>
+
+							<td>
+								<ol start="3">
+									<li></li>
+								</ol>
+							</td>
+
+							<td width="250px"></td>
+
+							<td width="300px"></td>
+						</tr>
+
+						<tr>
+							<td class="left">
+								<ol start="2">
+									<li></li>
+								</ol>
+							</td>
+							<td width="250px"></td>
+
+							<td width="300px"></td>
+
+							<td>
+								<ol start="4">
+									<li></li>
+								</ol>
+							</td>
+
+							<td width="250px"></td>
+
+							<td width="300px"></td>
+						</tr>
+					</table>
+			</div>
+
+			<div id="higherPart">
+				
+				<li>උසස් අධ්‍යාපන සුදුසුකම් / <span class="word">உயர்கல்வித் தகைமைகள் / </span> Higher Educational Qualification</li>
+	
+						<table  border="1" class="ol_table">
+							<tr>
+								<th class="left">
+									උපාධි / පශ්චාත් උපාධි ලබාගත් ක්ෂේත්‍රය /<span class="word">பட்டத்தின் வகை / </span>
+									Field of the Degree / Post Graduate
+								</th>
+								
+								<th>
+									විශ්ව්ද්‍යාලය /ආයතනය / <span class="word">பல்கலைக்கழகம் / நிறுவனம்</span> / University / Institute
+								</th>
+	
+								<th>
+									වර්ෂය / <span class="word">ஆண்டு</span> / Year
+								</th>
+							</tr>
+
+							<tr>
+								<td class="left" width="350px" height="20px"></td>
+								<td width="350px"></td>
+								<td></td>
+							</tr>
+
+							<tr>
+								<td class="left" width="350px" height="20px"></td>
+								<td width="350px"></td>
+								<td></td>
+							</tr>
+
+	
+						</table>
+				
+			</div>
+			
+<br>
+<br>
+<br>
+		</ol> 
+
+	
+</body>
+</html>
